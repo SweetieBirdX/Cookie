@@ -1,13 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import { useAuth } from "@/lib/useAuth";
 import { signOutUser } from "@/lib/auth";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import SearchBar from "@/components/SearchBar";
+import RecipeList from "@/components/RecipeList";
+import { useRecipeSearch } from "@/lib/useRecipeSearch";
 
 export default function Home() {
-  const { user, loading } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState("");
+  const { data: searchResults, isLoading: searchLoading } = useRecipeSearch(searchQuery);
 
   const handleSignOut = async () => {
     try {
@@ -16,6 +22,10 @@ export default function Home() {
     } catch (error) {
       console.error("Error signing out:", error);
     }
+  };
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
   };
 
   return (
@@ -30,7 +40,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="flex items-center space-x-4">
-              {loading ? (
+              {authLoading ? (
                 <div className="animate-pulse bg-gray-200 h-8 w-20 rounded"></div>
               ) : user ? (
                 <>
@@ -72,21 +82,76 @@ export default function Home() {
       </nav>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8">
-        <div className="text-center space-y-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="text-center space-y-6 mb-8">
           <h1 className="text-4xl font-bold text-gray-900">
             🍳 Cookie
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Find delicious recipes by ingredients. Search, discover, and save your favorite recipes.
           </p>
+          
+          {/* Search Bar */}
+          <div className="mt-8">
+            <SearchBar 
+              onSearch={handleSearch} 
+              loading={searchLoading}
+              placeholder="chicken, rice, onion, garlic..."
+            />
+          </div>
+
+          {/* Search Results Info */}
+          {searchQuery && (
+            <div className="text-sm text-gray-600">
+              {searchLoading ? (
+                "Searching recipes..."
+              ) : searchResults ? (
+                `Found ${searchResults.length} recipe${searchResults.length !== 1 ? 's' : ''} for "${searchQuery}"`
+              ) : null}
+            </div>
+          )}
+        </div>
+
+        {/* Recipe Results */}
+        <div className="mt-8">
+          {searchQuery ? (
+            <RecipeList 
+              items={searchResults || []} 
+              loading={searchLoading}
+            />
+          ) : (
+            <div className="text-center py-12">
+              <div className="text-gray-400 mb-4">
+                <svg
+                  className="mx-auto h-12 w-12"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">
+                Start searching for recipes
+              </h3>
+              <p className="text-gray-500">
+                Enter ingredients like "chicken, rice" or "pasta, tomato" to find delicious recipes.
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Phase Status */}
+        <div className="mt-12 text-center">
           <div className="bg-green-50 border border-green-200 rounded-lg p-4 max-w-2xl mx-auto">
             <p className="text-green-800 font-medium">
-              ✅ Phase 2 Complete: Firebase Authentication with sign-in, sign-up, and route protection
+              ✅ Phase 3 Complete: Recipe search with ingredient filtering and responsive grid layout
             </p>
-          </div>
-          <div className="text-sm text-gray-500">
-            <p>Ready to start building the recipe search functionality!</p>
           </div>
         </div>
       </main>
