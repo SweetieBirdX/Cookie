@@ -1,88 +1,37 @@
 "use client";
 
 import { useState } from "react";
-import { useAuth } from "@/lib/useAuth";
-import { signOutUser } from "@/lib/auth";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import RecipeList from "@/components/RecipeList";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import EmptyState from "@/components/EmptyState";
+import LoadingSpinner from "@/components/LoadingSpinner";
+import ErrorAlert from "@/components/ErrorAlert";
 import { useRecipeSearch } from "@/lib/useRecipeSearch";
 
 export default function Home() {
-  const { user, loading: authLoading } = useAuth();
-  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
-  const { data: searchResults, isLoading: searchLoading } = useRecipeSearch(searchQuery);
-
-  const handleSignOut = async () => {
-    try {
-      await signOutUser();
-      router.push("/");
-    } catch (error) {
-      console.error("Error signing out:", error);
-    }
-  };
+  const { data: searchResults, isLoading: searchLoading, error: searchError } = useRecipeSearch(searchQuery);
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
   };
 
+  const handleRetry = () => {
+    // Retry the search
+    if (searchQuery) {
+      setSearchQuery("");
+      setTimeout(() => setSearchQuery(searchQuery), 100);
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navigation */}
-      <nav className="bg-white shadow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-gray-900">
-                🍳 Cookie
-              </Link>
-            </div>
-            <div className="flex items-center space-x-4">
-              {authLoading ? (
-                <div className="animate-pulse bg-gray-200 h-8 w-20 rounded"></div>
-              ) : user ? (
-                <>
-                  <Link
-                    href="/favorites"
-                    className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    My Favorites
-                  </Link>
-                  <span className="text-gray-500 text-sm">
-                    {user.email}
-                  </span>
-                  <button
-                    onClick={handleSignOut}
-                    className="bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                  >
-                    Sign Out
-                  </button>
-                </>
-              ) : (
-                <>
-                  <Link
-                    href="/auth/signin"
-                    className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Sign In
-                  </Link>
-                  <Link
-                    href="/auth/signup"
-                    className="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                  >
-                    Sign Up
-                  </Link>
-                </>
-              )}
-            </div>
-          </div>
-        </div>
-      </nav>
+    <div className="min-h-screen bg-gray-50 flex flex-col">
+      <Navbar />
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
         <div className="text-center space-y-6 mb-8">
           <h1 className="text-4xl font-bold text-gray-900">
             🍳 Cookie
@@ -104,11 +53,21 @@ export default function Home() {
           {searchQuery && (
             <div className="text-sm text-gray-600">
               {searchLoading ? (
-                "Searching recipes..."
+                <LoadingSpinner size="sm" text="Searching recipes..." />
               ) : searchResults ? (
                 `Found ${searchResults.length} recipe${searchResults.length !== 1 ? 's' : ''} for "${searchQuery}"`
               ) : null}
             </div>
+          )}
+
+          {/* Error State */}
+          {searchError && (
+            <ErrorAlert
+              title="Search failed"
+              message="We couldn't search for recipes right now. Please try again."
+              onRetry={handleRetry}
+              className="max-w-md mx-auto"
+            />
           )}
         </div>
 
@@ -120,8 +79,8 @@ export default function Home() {
               loading={searchLoading}
             />
           ) : (
-            <div className="text-center py-12">
-              <div className="text-gray-400 mb-4">
+            <EmptyState
+              icon={
                 <svg
                   className="mx-auto h-12 w-12"
                   fill="none"
@@ -135,14 +94,10 @@ export default function Home() {
                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                   />
                 </svg>
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">
-                Start searching for recipes
-              </h3>
-              <p className="text-gray-500">
-                Enter ingredients like "chicken, rice" or "pasta, tomato" to find delicious recipes.
-              </p>
-            </div>
+              }
+              title="Start searching for recipes"
+              description="Enter ingredients like 'chicken, rice' or 'pasta, tomato' to find delicious recipes."
+            />
           )}
         </div>
 
@@ -150,11 +105,13 @@ export default function Home() {
         <div className="mt-12 text-center">
           <div className="bg-green-50 border border-green-200 rounded-lg p-4 max-w-2xl mx-auto">
             <p className="text-green-800 font-medium">
-              ✅ Phase 3 Complete: Recipe search with ingredient filtering and responsive grid layout
+              ✅ Phase 6 Complete: UI Polish with responsive design, improved states, and professional styling
             </p>
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import RecipeCard from "./RecipeCard";
+import EmptyState from "./EmptyState";
 import type { Recipe } from "@/types/recipe";
 
 interface RecipeListProps {
@@ -29,8 +30,8 @@ export default function RecipeList({ items, loading = false }: RecipeListProps) 
 
   if (!items?.length) {
     return (
-      <div className="text-center py-12">
-        <div className="text-gray-400 mb-4">
+      <EmptyState
+        icon={
           <svg
             className="mx-auto h-12 w-12"
             fill="none"
@@ -44,14 +45,10 @@ export default function RecipeList({ items, loading = false }: RecipeListProps) 
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
-        </div>
-        <h3 className="text-lg font-medium text-gray-900 mb-2">
-          No recipes found
-        </h3>
-        <p className="text-gray-500">
-          Try searching with different ingredients or check your spelling.
-        </p>
-      </div>
+        }
+        title="No recipes found"
+        description="Try searching with different ingredients or check your spelling. You can search for things like 'chicken, rice' or 'pasta, tomato'."
+      />
     );
   }
 

@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { getRecipeById } from "@/lib/recipes";
 import FavoriteButton from "@/components/FavoriteButton";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 type Props = { 
   params: { id: string } 
@@ -16,30 +18,11 @@ export default function RecipeDetailPage({ params }: Props) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navigation */}
-      <nav className="bg-white shadow">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-gray-900">
-                🍳 Cookie
-              </Link>
-            </div>
-            <div className="flex items-center">
-              <Link
-                href="/"
-                className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                ← Back to Search
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <div className="min-h-screen bg-gray-50 flex flex-col">
+      <Navbar />
 
       {/* Recipe Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
           {/* Header Section */}
           <div className="relative">
@@ -150,6 +133,8 @@ export default function RecipeDetailPage({ params }: Props) {
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }
