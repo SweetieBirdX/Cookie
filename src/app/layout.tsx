@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   keywords: ["recipes", "cooking", "ingredients", "food", "search"],
   authors: [{ name: "Cookie App" }],
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/cookie.png",
+    shortcut: "/cookie.png",
+    apple: "/cookie.png",
+  },
 };
 
 export default function RootLayout({

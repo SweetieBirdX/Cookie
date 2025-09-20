@@ -27,14 +27,14 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
       {/* Main Content */}
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
         <div className="text-center space-y-6 mb-8">
           <h1 className="text-4xl font-bold text-gray-900">
-            🍳 Cookie
+            Cookie
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Find delicious recipes by ingredients. Search, discover, and save your favorite recipes.
@@ -95,20 +95,12 @@ export default function Home() {
                   />
                 </svg>
               }
-              title="Start searching for recipes"
-              description="Enter ingredients like 'chicken, rice' or 'pasta, tomato' to find delicious recipes."
+              title="Ready to cook?"
+              description="Search for recipes using the ingredients you have."
             />
           )}
         </div>
 
-        {/* Phase Status */}
-        <div className="mt-12 text-center">
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 max-w-2xl mx-auto">
-            <p className="text-green-800 font-medium">
-              ✅ Phase 6 Complete: UI Polish with responsive design, improved states, and professional styling
-            </p>
-          </div>
-        </div>
       </main>
 
       <Footer />

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F5ECDC;
+  --foreground: #2C2C2C;
 }
 
 @theme inline {
@@ -14,19 +14,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F5ECDC;
+    --foreground: #2C2C2C;
   }
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
   background: var(--background);
@@ -42,6 +44,79 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* Navbar specific styles - override inherit for navbar links */
+nav a {
+  color: white !important;
+}
+
+nav {
+  color: white !important;
+}
+
+/* Only apply white color to navbar links and buttons, exclude dropdown container */
+nav > div > div > a,
+nav > div > div > div:not(.relative) {
+  color: white !important;
+}
+
+/* Dropdown menu specific styles - ensure proper colors */
+.dropdown-menu {
+  color: inherit !important;
+}
+
+.dropdown-menu * {
+  color: inherit !important;
+}
+
+/* Force dropdown text colors to be visible */
+.dropdown-menu .text-gray-700 {
+  color: #374151 !important;
+}
+
+.dropdown-menu .text-red-600 {
+  color: #dc2626 !important;
+}
+
+.dropdown-menu button {
+  color: #dc2626 !important;
+}
+
+.dropdown-menu div {
+  color: #374151 !important;
+}
+
+/* Navbar text colors - force white */
+nav .text-white,
+nav .text-gray-900,
+nav .text-gray-800,
+nav .text-gray-700,
+nav .text-gray-600,
+nav .text-gray-500,
+nav .text-gray-400,
+nav .text-gray-300,
+nav .text-gray-200,
+nav .text-gray-100,
+nav .text-black,
+nav span,
+nav p,
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+nav h5,
+nav h6 {
+  color: white !important;
+}
+
+/* Navbar specific text overrides */
+nav .text-yellow-100 {
+  color: #fef3c7 !important;
+}
+
+nav .text-yellow-200 {
+  color: #fde68a !important;
 }
 
 button {
@@ -82,4 +157,18 @@ img {
 *:focus-visible {
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
+}
+
+/* Footer link styles - clean start */
+footer a {
+  text-decoration: none !important;
+}
+
+footer a:hover {
+  color: #fbbf24 !important;
+}
+
+/* Footer text colors - override body color */
+footer .text-yellow-100 {
+  color: #fef3c7 !important;
 }
