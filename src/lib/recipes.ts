@@ -95,7 +95,13 @@ export function searchRecipes(
 
   // Skora göre azalan sırala, eşitse title alfabetik
   results.sort((a, b) => (b.score - a.score) || a.recipe.title.localeCompare(b.recipe.title));
-  return results;
+  
+  // Remove duplicates based on recipe ID
+  const uniqueResults = results.filter((item, index, self) => 
+    index === self.findIndex(t => t.recipe.id === item.recipe.id)
+  );
+  
+  return uniqueResults;
 }
 
 /** JSON'dan ID ile tarif çekme */
