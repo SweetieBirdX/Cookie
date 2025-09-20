@@ -1,0 +1,69 @@
+import RecipeCard from "./RecipeCard";
+import type { Recipe } from "@/types/recipe";
+
+interface RecipeListProps {
+  items: Array<{ recipe: Recipe; score: number; matched: string[] }>;
+  loading?: boolean;
+}
+
+export default function RecipeList({ items, loading = false }: RecipeListProps) {
+  if (loading) {
+    return (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {Array.from({ length: 8 }).map((_, index) => (
+          <div key={index} className="animate-pulse">
+            <div className="bg-gray-200 rounded-2xl h-64 mb-3"></div>
+            <div className="space-y-2">
+              <div className="bg-gray-200 h-4 rounded w-3/4"></div>
+              <div className="bg-gray-200 h-3 rounded w-1/2"></div>
+              <div className="flex gap-2">
+                <div className="bg-gray-200 h-6 rounded-full w-16"></div>
+                <div className="bg-gray-200 h-6 rounded-full w-20"></div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (!items?.length) {
+    return (
+      <div className="text-center py-12">
+        <div className="text-gray-400 mb-4">
+          <svg
+            className="mx-auto h-12 w-12"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </div>
+        <h3 className="text-lg font-medium text-gray-900 mb-2">
+          No recipes found
+        </h3>
+        <p className="text-gray-500">
+          Try searching with different ingredients or check your spelling.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {items.map(({ recipe, score }) => (
+        <RecipeCard 
+          key={recipe.id} 
+          recipe={recipe} 
+          score={score}
+        />
+      ))}
+    </div>
+  );
+}
