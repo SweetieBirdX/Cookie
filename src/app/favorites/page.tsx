@@ -16,7 +16,7 @@ export default function FavoritesPage() {
 
   return (
     <ProtectedRoute>
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Navbar />
 
         {/* Main Content */}
@@ -78,14 +78,6 @@ export default function FavoritesPage() {
             </div>
           )}
 
-          {/* Phase Status */}
-          <div className="mt-12 text-center">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4 max-w-2xl mx-auto">
-              <p className="text-green-800 font-medium">
-                ✅ Phase 6 Complete: UI Polish with responsive design, improved states, and professional styling
-              </p>
-            </div>
-          </div>
         </main>
 
         <Footer />
