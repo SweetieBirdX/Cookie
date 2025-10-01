@@ -1,12 +1,12 @@
 import { db } from "./firebase";
 import {
-  doc, setDoc, deleteDoc, getDoc, getDocs, collection, serverTimestamp,
+  doc, setDoc, deleteDoc, getDoc, getDocs, collection, serverTimestamp, Timestamp,
 } from "firebase/firestore";
 
 export type FavoriteDoc = {
   title: string;
   imageUrl?: string;
-  addedAt: any; // Firestore Timestamp
+  addedAt: Timestamp | null;
 };
 
 /** users/{uid}/favorites/{recipeId} doc ref */

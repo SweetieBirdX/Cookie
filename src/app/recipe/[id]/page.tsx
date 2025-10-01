@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 import { getRecipeById } from "@/lib/recipes";
 import FavoriteButton from "@/components/FavoriteButton";
 import Navbar from "@/components/Navbar";
@@ -8,12 +7,13 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 type Props = { 
-  params: { id: string } 
+  params: Promise<{ id: string }>
 };
 
 // Generate dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const recipe = getRecipeById(params.id);
+  const { id } = await params;
+  const recipe = getRecipeById(id);
   
   if (!recipe) {
     return {
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const recipeUrl = `/recipe/${params.id}`;
+  const recipeUrl = `/recipe/${id}`;
   const imageUrl = recipe.image || "/cookie.png";
   
   return {
@@ -49,11 +49,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: recipe.title,
         }
       ],
-      article: {
-        publishedTime: new Date().toISOString(),
-        authors: ["Cookie Recipe App"],
-        tags: recipe.tags || [],
-      }
     },
     twitter: {
       card: "summary_large_image",
@@ -67,8 +62,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function RecipeDetailPage({ params }: Props) {
-  const recipe = getRecipeById(params.id);
+export default async function RecipeDetailPage({ params }: Props) {
+  const { id } = await params;
+  const recipe = getRecipeById(id);
   
   if (!recipe) {
     return notFound();

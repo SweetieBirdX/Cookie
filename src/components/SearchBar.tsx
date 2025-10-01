@@ -67,7 +67,7 @@ export default function SearchBar({ onSearch, placeholder = "chicken, rice, onio
       {!loading && (
         <div className="mt-3 text-center">
           <p className="text-sm text-gray-500">
-            Try searching for ingredients like <span className="text-amber-600 font-medium">"chicken, rice"</span> or <span className="text-amber-600 font-medium">"pasta, tomato"</span>
+            Try searching for ingredients like <span className="text-amber-600 font-medium">&quot;chicken, rice&quot;</span> or <span className="text-amber-600 font-medium">&quot;pasta, tomato&quot;</span>
           </p>
         </div>
       )}

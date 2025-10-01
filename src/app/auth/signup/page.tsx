@@ -45,8 +45,9 @@ export default function SignUpPage() {
     try {
       await createUser(email, password);
       router.push("/");
-    } catch (error: any) {
-      setError(getErrorMessage(error.code));
+    } catch (error) {
+      const errorCode = (error as { code?: string })?.code || 'unknown';
+      setError(getErrorMessage(errorCode));
     } finally {
       setLoading(false);
     }

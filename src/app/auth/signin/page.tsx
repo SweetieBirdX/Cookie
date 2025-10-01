@@ -30,8 +30,9 @@ export default function SignInPage() {
     try {
       await signIn(email, password);
       router.push("/");
-    } catch (error: any) {
-      setError(getErrorMessage(error.code));
+    } catch (error) {
+      const errorCode = (error as { code?: string })?.code || 'unknown';
+      setError(getErrorMessage(errorCode));
     } finally {
       setLoading(false);
     }
@@ -185,7 +186,7 @@ export default function SignInPage() {
           <div className="mt-8 space-y-4">
             <div className="text-center">
               <p className="text-sm text-gray-600">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <Link
                   href="/auth/signup"
                   className="font-semibold text-amber-600 hover:text-amber-500 transition-colors"
