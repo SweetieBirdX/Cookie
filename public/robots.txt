@@ -1,0 +1,21 @@
+# robots.txt for Cookie Recipe App
+# https://cookie-recipes.vercel.app
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin/auth pages from being indexed
+Disallow: /auth/
+Disallow: /api/
+
+# Allow recipe pages to be crawled
+Allow: /recipe/
+Allow: /favorites
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://cookie-recipes.vercel.app/sitemap.xml
+

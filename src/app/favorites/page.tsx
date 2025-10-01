@@ -14,13 +14,41 @@ export default function FavoritesPage() {
     removeFavorite(recipeId);
   };
 
+  // JSON-LD structured data for favorites page
+  const favoritesStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "My Favorite Recipes",
+    "description": "A collection of my favorite recipes saved on Cookie Recipe App",
+    "url": "https://cookie-recipes.vercel.app/favorites",
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": favorites.length,
+      "itemListElement": favorites.slice(0, 10).map((fav, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Recipe",
+          "name": fav.title,
+          "image": fav.imageUrl
+        }
+      }))
+    }
+  };
+
   return (
     <ProtectedRoute>
       <div className="min-h-screen flex flex-col">
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(favoritesStructuredData) }}
+        />
+        
         <Navbar />
 
         {/* Main Content */}
-        <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+        <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full" role="main">
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">My Favorites</h1>
             <p className="text-gray-600">

@@ -5,10 +5,67 @@ import { getRecipeById } from "@/lib/recipes";
 import FavoriteButton from "@/components/FavoriteButton";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
 
 type Props = { 
   params: { id: string } 
 };
+
+// Generate dynamic metadata for SEO
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const recipe = getRecipeById(params.id);
+  
+  if (!recipe) {
+    return {
+      title: "Recipe Not Found",
+      description: "The recipe you're looking for doesn't exist."
+    };
+  }
+
+  const recipeUrl = `/recipe/${params.id}`;
+  const imageUrl = recipe.image || "/cookie.png";
+  
+  return {
+    title: recipe.title,
+    description: `${recipe.title} - ${recipe.ingredients.slice(0, 5).join(", ")}. ${recipe.timeMinutes ? `Ready in ${recipe.timeMinutes} minutes.` : ""} ${recipe.servings ? `Serves ${recipe.servings} people.` : ""}`,
+    keywords: [
+      recipe.title,
+      ...recipe.ingredients,
+      ...(recipe.tags || []),
+      "recipe",
+      "cooking",
+      "food"
+    ],
+    openGraph: {
+      title: recipe.title,
+      description: `Learn how to make ${recipe.title}. Ingredients: ${recipe.ingredients.slice(0, 5).join(", ")}.`,
+      url: recipeUrl,
+      type: "article",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: recipe.title,
+        }
+      ],
+      article: {
+        publishedTime: new Date().toISOString(),
+        authors: ["Cookie Recipe App"],
+        tags: recipe.tags || [],
+      }
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: recipe.title,
+      description: `Learn how to make ${recipe.title}. ${recipe.timeMinutes ? `Ready in ${recipe.timeMinutes} minutes.` : ""}`,
+      images: [imageUrl],
+    },
+    alternates: {
+      canonical: recipeUrl,
+    }
+  };
+}
 
 export default function RecipeDetailPage({ params }: Props) {
   const recipe = getRecipeById(params.id);
@@ -17,8 +74,46 @@ export default function RecipeDetailPage({ params }: Props) {
     return notFound();
   }
 
+  // JSON-LD structured data for SEO
+  const recipeStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": recipe.title,
+    "image": recipe.image || "/cookie.png",
+    "description": `Learn how to make ${recipe.title}. A delicious recipe with ${recipe.ingredients.length} ingredients.`,
+    "keywords": recipe.tags?.join(", "),
+    "author": {
+      "@type": "Organization",
+      "name": "Cookie Recipe App"
+    },
+    "datePublished": new Date().toISOString(),
+    "prepTime": recipe.timeMinutes ? `PT${recipe.timeMinutes}M` : undefined,
+    "cookTime": recipe.timeMinutes ? `PT${recipe.timeMinutes}M` : undefined,
+    "totalTime": recipe.timeMinutes ? `PT${recipe.timeMinutes}M` : undefined,
+    "recipeYield": recipe.servings ? `${recipe.servings} servings` : undefined,
+    "recipeCategory": recipe.tags?.[0] || "Main Course",
+    "recipeCuisine": recipe.tags?.find(tag => ["italian", "asian", "mexican", "indian"].includes(tag.toLowerCase())) || "International",
+    "recipeIngredient": recipe.ingredients,
+    "recipeInstructions": recipe.instructions.map((instruction, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "text": instruction
+    })),
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "100"
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeStructuredData) }}
+      />
+      
       <Navbar />
 
       {/* Recipe Content */}

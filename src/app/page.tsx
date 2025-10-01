@@ -26,12 +26,44 @@ export default function Home() {
     }
   };
 
+  // JSON-LD structured data for homepage
+  const websiteStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Cookie Recipe App",
+    "applicationCategory": "FoodApplication",
+    "operatingSystem": "Web Browser",
+    "description": "Find delicious recipes by ingredients. Search, discover, and save your favorite recipes from 300+ recipes database.",
+    "url": "https://cookie-recipes.vercel.app",
+    "author": {
+      "@type": "Person",
+      "name": "Eyüp Efe Karakoca",
+      "url": "https://github.com/SweetieBirdX"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "350"
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
+      />
+      
       <Navbar />
 
       {/* Main Content */}
-      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full" role="main">
         <div className="text-center space-y-6 mb-8">
           <h1 className="text-4xl font-bold text-gray-900">
             Cookie

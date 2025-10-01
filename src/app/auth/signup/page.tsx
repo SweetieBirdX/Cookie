@@ -15,6 +15,15 @@ export default function SignUpPage() {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const router = useRouter();
 
+  // JSON-LD structured data for signup page
+  const signupStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sign Up - Cookie Recipe App",
+    "description": "Create an account on Cookie Recipe App to start saving and managing your favorite recipes",
+    "url": "https://cookie-recipes.vercel.app/auth/signup"
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
@@ -60,6 +69,12 @@ export default function SignUpPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(signupStructuredData) }}
+      />
+      
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-32 w-80 h-80 bg-gradient-to-br from-amber-200 to-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
