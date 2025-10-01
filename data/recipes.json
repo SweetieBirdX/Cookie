@@ -1551,6 +1551,1999 @@
         "tags": ["vegetarian", "italian", "pasta"],
         "timeMinutes": 45,
         "servings": 4
+      },
+      {
+        "id": "beef-biryani",
+        "title": "Beef Biryani",
+        "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+        "ingredients": ["beef", "basmati rice", "onion", "tomato", "garlic", "ginger", "spices", "yogurt"],
+        "instructions": [
+          "Marinate beef with yogurt and spices.",
+          "Cook onions, tomatoes, and beef until tender.",
+          "Layer with rice and steam until flavors combine."
+        ],
+        "tags": ["indian", "rice", "spicy"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "chicken-biryani",
+        "title": "Chicken Biryani",
+        "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+        "ingredients": ["chicken", "basmati rice", "onion", "garlic", "ginger", "tomatoes", "yogurt", "spices"],
+        "instructions": [
+          "Marinate chicken with yogurt and spices.",
+          "Cook onions and tomatoes, then add chicken.",
+          "Layer with rice and cook on low heat until done."
+        ],
+        "tags": ["indian", "rice"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "malai-kofta",
+        "title": "Malai Kofta",
+        "image": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg",
+        "ingredients": ["potatoes", "paneer", "cream", "onion", "tomatoes", "spices", "cashews"],
+        "instructions": [
+          "Make kofta balls with mashed potatoes and paneer.",
+          "Fry until golden brown.",
+          "Cook curry sauce with onions, tomatoes, cream, and spices.",
+          "Add koftas and simmer gently."
+        ],
+        "tags": ["indian", "vegetarian"],
+        "timeMinutes": 75,
+        "servings": 4
+      },
+      {
+        "id": "lobster-roll",
+        "title": "Lobster Roll",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "ingredients": ["lobster meat", "mayonnaise", "lemon juice", "celery", "hot dog buns", "butter"],
+        "instructions": [
+          "Mix lobster meat with mayonnaise, lemon juice, and celery.",
+          "Toast buttered buns until golden.",
+          "Fill buns with lobster mixture and serve."
+        ],
+        "tags": ["seafood", "american"],
+        "timeMinutes": 25,
+        "servings": 2
+      },
+      {
+        "id": "clam-linguine",
+        "title": "Clam Linguine",
+        "image": "https://www.themealdb.com/images/media/meals/vvtvtr1511180578.jpg",
+        "ingredients": ["linguine", "clams", "garlic", "olive oil", "parsley", "white wine"],
+        "instructions": [
+          "Cook linguine until al dente.",
+          "Sauté garlic in olive oil, add clams and white wine.",
+          "Toss pasta with sauce and sprinkle with parsley."
+        ],
+        "tags": ["italian", "seafood"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "fried-rice",
+        "title": "Fried Rice",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["rice", "egg", "soy sauce", "carrot", "peas", "onion", "oil"],
+        "instructions": [
+          "Cook rice and let it cool.",
+          "Scramble eggs, then stir-fry vegetables.",
+          "Add rice and soy sauce, stir-frying until hot."
+        ],
+        "tags": ["asian", "quick"],
+        "timeMinutes": 30,
+        "servings": 3
+      },
+      {
+        "id": "general-tso-chicken",
+        "title": "General Tso's Chicken",
+        "image": "https://www.themealdb.com/images/media/meals/1529444113.jpg",
+        "ingredients": ["chicken", "soy sauce", "cornstarch", "garlic", "ginger", "sugar", "vinegar", "chili"],
+        "instructions": [
+          "Coat chicken in cornstarch and fry until crispy.",
+          "Cook sauce with soy, garlic, ginger, sugar, and vinegar.",
+          "Toss fried chicken in sauce and serve."
+        ],
+        "tags": ["chinese", "spicy"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "kung-pao-chicken",
+        "title": "Kung Pao Chicken",
+        "image": "https://www.themealdb.com/images/media/meals/1529444574.jpg",
+        "ingredients": ["chicken", "peanuts", "bell peppers", "chili peppers", "soy sauce", "garlic", "ginger"],
+        "instructions": [
+          "Stir-fry chicken until browned.",
+          "Add vegetables, peanuts, and chili peppers.",
+          "Toss with soy-garlic sauce and serve."
+        ],
+        "tags": ["chinese", "spicy"],
+        "timeMinutes": 45,
+        "servings": 4
+      },
+      {
+        "id": "mapo-tofu",
+        "title": "Mapo Tofu",
+        "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
+        "ingredients": ["tofu", "ground pork", "chili bean paste", "garlic", "ginger", "soy sauce", "scallions"],
+        "instructions": [
+          "Cook pork with garlic, ginger, and chili bean paste.",
+          "Add tofu cubes and simmer in sauce.",
+          "Garnish with scallions and serve hot."
+        ],
+        "tags": ["chinese", "spicy"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "sweet-and-sour-pork",
+        "title": "Sweet and Sour Pork",
+        "image": "https://www.themealdb.com/images/media/meals/1529442316.jpg",
+        "ingredients": ["pork", "pineapple", "bell peppers", "vinegar", "sugar", "soy sauce", "cornstarch"],
+        "instructions": [
+          "Coat pork in cornstarch and fry until crispy.",
+          "Cook sauce with vinegar, sugar, soy, and pineapple.",
+          "Toss pork and vegetables in sauce."
+        ],
+        "tags": ["chinese"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "chicken-tikka-masala",
+        "title": "Chicken Tikka Masala",
+        "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+        "ingredients": ["chicken", "yogurt", "garam masala", "tomato puree", "cream", "onion", "garlic", "ginger"],
+        "instructions": [
+          "Marinate chicken in yogurt and spices.",
+          "Grill or sear until cooked.",
+          "Simmer in tomato cream sauce until thickened."
+        ],
+        "tags": ["indian", "chicken"],
+        "timeMinutes": 75,
+        "servings": 4
+      },
+      {
+        "id": "fettuccine-alfredo",
+        "title": "Fettuccine Alfredo",
+        "image": "https://www.themealdb.com/images/media/meals/uquqtu1511178042.jpg",
+        "ingredients": ["fettuccine", "butter", "cream", "parmesan", "garlic", "salt", "pepper"],
+        "instructions": [
+          "Cook pasta until al dente.",
+          "Melt butter and cream in a pan.",
+          "Add parmesan, season, and toss with pasta."
+        ],
+        "tags": ["italian", "pasta"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "beef-korma",
+        "title": "Beef Korma",
+        "image": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg",
+        "ingredients": ["beef", "yogurt", "onion", "garlic", "ginger", "spices", "cream", "almonds"],
+        "instructions": [
+          "Cook onion, garlic, and ginger with spices.",
+          "Add beef and brown.",
+          "Simmer with yogurt and cream until tender."
+        ],
+        "tags": ["indian", "beef"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "chow-mein",
+        "title": "Chicken Chow Mein",
+        "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
+        "ingredients": ["noodles", "chicken", "soy sauce", "cabbage", "carrot", "onion", "garlic", "ginger"],
+        "instructions": [
+          "Boil noodles until soft.",
+          "Stir-fry chicken and vegetables.",
+          "Add noodles and sauce, toss to combine."
+        ],
+        "tags": ["chinese", "stir-fry"],
+        "timeMinutes": 35,
+        "servings": 3
+      },
+      {
+        "id": "cannoli",
+        "title": "Cannoli",
+        "image": "https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg",
+        "ingredients": ["flour", "ricotta", "sugar", "chocolate chips", "cinnamon", "marsala wine", "oil"],
+        "instructions": [
+          "Make dough, roll, and shape into tubes.",
+          "Fry shells until crisp.",
+          "Fill with ricotta cream and chocolate chips."
+        ],
+        "tags": ["italian", "dessert"],
+        "timeMinutes": 120,
+        "servings": 8
+      },
+      {
+        "id": "seafood-paella",
+        "title": "Seafood Paella",
+        "image": "https://www.themealdb.com/images/media/meals/ldnrm91576791881.jpg",
+        "ingredients": ["rice", "shrimp", "mussels", "squid", "saffron", "chicken stock", "onion", "pepper"],
+        "instructions": [
+          "Sauté onion and peppers in olive oil.",
+          "Add rice and saffron, toast lightly.",
+          "Simmer with stock, then add seafood until cooked."
+        ],
+        "tags": ["spanish", "seafood"],
+        "timeMinutes": 80,
+        "servings": 6
+      },
+      {
+        "id": "chicken-kiev",
+        "title": "Chicken Kiev",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "ingredients": ["chicken breast", "garlic butter", "breadcrumbs", "egg", "flour", "parsley", "oil"],
+        "instructions": [
+          "Stuff chicken with garlic butter.",
+          "Coat with flour, egg, and breadcrumbs.",
+          "Fry until golden and finish in oven."
+        ],
+        "tags": ["ukrainian", "chicken"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "beef-poutine",
+        "title": "Beef Poutine Deluxe",
+        "image": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg",
+        "ingredients": ["fries", "beef gravy", "cheese curds", "braised beef", "onion", "oil"],
+        "instructions": [
+          "Fry potatoes into crispy fries.",
+          "Prepare beef gravy with onions.",
+          "Layer fries, cheese curds, and gravy with beef."
+        ],
+        "tags": ["canadian", "beef"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "chicken-quesadilla",
+        "title": "Chicken Quesadilla",
+        "image": "https://www.themealdb.com/images/media/meals/uttuxy1511382180.jpg",
+        "ingredients": ["tortilla", "chicken", "cheddar", "onion", "bell pepper", "spices"],
+        "instructions": [
+          "Cook chicken and vegetables with spices.",
+          "Place mixture on tortilla with cheese.",
+          "Grill until golden and cheese melts."
+        ],
+        "tags": ["mexican", "chicken"],
+        "timeMinutes": 25,
+        "servings": 2
+      },
+      {
+        "id": "french-crepes",
+        "title": "French Crêpes",
+        "image": "https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg",
+        "ingredients": ["flour", "milk", "eggs", "butter", "sugar", "salt"],
+        "instructions": [
+          "Mix flour, eggs, and milk into thin batter.",
+          "Cook thin layers on greased pan.",
+          "Fill or top with sweet or savory fillings."
+        ],
+        "tags": ["french", "dessert"],
+        "timeMinutes": 30,
+        "servings": 6
+      },
+      {
+        "id": "osso-buco",
+        "title": "Osso Buco",
+        "image": "https://www.themealdb.com/images/media/meals/wwuqvt1487345467.jpg",
+        "ingredients": ["veal shanks", "carrot", "celery", "onion", "tomato", "white wine", "stock", "garlic"],
+        "instructions": [
+          "Brown veal shanks in olive oil.",
+          "Sauté vegetables and deglaze with wine.",
+          "Simmer with tomato and stock until tender."
+        ],
+        "tags": ["italian", "stew"],
+        "timeMinutes": 150,
+        "servings": 4
+      },
+      {
+        "id": "baklava",
+        "title": "Baklava",
+        "image": "https://www.themealdb.com/images/media/meals/wpuvvr1511799248.jpg",
+        "ingredients": ["phyllo pastry", "walnuts", "pistachios", "butter", "sugar", "honey", "cinnamon"],
+        "instructions": [
+          "Layer phyllo with butter and nuts.",
+          "Bake until golden.",
+          "Pour honey syrup over hot pastry."
+        ],
+        "tags": ["turkish", "dessert"],
+        "timeMinutes": 120,
+        "servings": 12
+      },
+      {
+        "id": "beef-moussaka",
+        "title": "Beef Moussaka",
+        "image": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
+        "ingredients": ["eggplant", "beef mince", "onion", "tomato", "potato", "béchamel sauce", "cheese"],
+        "instructions": [
+          "Fry eggplant and potatoes.",
+          "Layer with beef sauce.",
+          "Top with béchamel and cheese, bake until golden."
+        ],
+        "tags": ["greek", "casserole"],
+        "timeMinutes": 100,
+        "servings": 6
+      },
+      {
+        "id": "clam-linguine",
+        "title": "Clam Linguine",
+        "image": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
+        "ingredients": ["linguine", "clams", "garlic", "olive oil", "parsley", "chili flakes", "white wine"],
+        "instructions": [
+          "Cook linguine until al dente.",
+          "Sauté garlic and chili in olive oil.",
+          "Add clams and wine, steam until opened. Toss with pasta."
+        ],
+        "tags": ["italian", "seafood"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "beef-biryani",
+        "title": "Beef Biryani",
+        "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+        "ingredients": ["basmati rice", "beef", "onion", "tomato", "ginger", "garlic", "yogurt", "spices"],
+        "instructions": [
+          "Cook spiced beef curry.",
+          "Layer parboiled rice and beef curry.",
+          "Steam until flavors combine."
+        ],
+        "tags": ["indian", "rice"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "beef-souvlaki",
+        "title": "Beef Souvlaki",
+        "image": "https://www.themealdb.com/images/media/meals/cv8t321543541676.jpg",
+        "ingredients": ["beef", "lemon juice", "garlic", "oregano", "olive oil", "pita bread", "yogurt sauce"],
+        "instructions": [
+          "Marinate beef in lemon, garlic, and oregano.",
+          "Grill skewers until cooked.",
+          "Serve with pita and yogurt sauce."
+        ],
+        "tags": ["greek", "grill"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "stuffed-cabbage-rolls",
+        "title": "Stuffed Cabbage Rolls",
+        "image": "https://www.themealdb.com/images/media/meals/uwqvqp1487342539.jpg",
+        "ingredients": ["cabbage leaves", "rice", "beef mince", "onion", "tomato sauce", "garlic"],
+        "instructions": [
+          "Blanch cabbage leaves.",
+          "Fill with rice and beef mixture.",
+          "Simmer in tomato sauce until tender."
+        ],
+        "tags": ["eastern-european", "comfort-food"],
+        "timeMinutes": 90,
+        "servings": 5
+      },
+      {
+        "id": "cassoulet",
+        "title": "Cassoulet",
+        "image": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+        "ingredients": ["white beans", "pork sausage", "duck confit", "onion", "garlic", "tomato", "herbs"],
+        "instructions": [
+          "Cook beans until tender.",
+          "Layer with meats and vegetables.",
+          "Bake slowly until thick and flavorful."
+        ],
+        "tags": ["french", "stew"],
+        "timeMinutes": 180,
+        "servings": 6
+      },
+      {
+        "id": "gnocchi-sorrentina",
+        "title": "Gnocchi alla Sorrentina",
+        "image": "https://www.themealdb.com/images/media/meals/wrxxsr1511720150.jpg",
+        "ingredients": ["gnocchi", "tomato sauce", "mozzarella", "parmesan", "basil"],
+        "instructions": [
+          "Cook gnocchi until they float.",
+          "Toss with tomato sauce.",
+          "Bake with mozzarella and parmesan until bubbly."
+        ],
+        "tags": ["italian", "pasta"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "irish-stew",
+        "title": "Irish Stew",
+        "image": "https://www.themealdb.com/images/media/meals/sxxpst1468569714.jpg",
+        "ingredients": ["lamb", "potato", "carrot", "onion", "parsley", "stock"],
+        "instructions": [
+          "Layer lamb and vegetables in a pot.",
+          "Cover with stock and simmer slowly.",
+          "Cook until meat is tender."
+        ],
+        "tags": ["irish", "stew"],
+        "timeMinutes": 120,
+        "servings": 5
+      },
+      {
+        "id": "chicken-cacciatore",
+        "title": "Chicken Cacciatore",
+        "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+        "ingredients": ["chicken", "tomato", "mushroom", "onion", "garlic", "herbs", "wine"],
+        "instructions": [
+          "Brown chicken pieces.",
+          "Sauté onion, mushroom, and garlic.",
+          "Simmer with tomato and wine until cooked."
+        ],
+        "tags": ["italian", "chicken"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "egg-fried-rice",
+        "title": "Egg Fried Rice",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["rice", "egg", "soy sauce", "peas", "carrot", "green onion", "oil"],
+        "instructions": [
+          "Scramble eggs and set aside.",
+          "Stir-fry vegetables and rice.",
+          "Mix in eggs and soy sauce."
+        ],
+        "tags": ["chinese", "rice"],
+        "timeMinutes": 20,
+        "servings": 3
+      },
+      {
+        "id": "pork-tonkatsu",
+        "title": "Pork Tonkatsu",
+        "image": "https://www.themealdb.com/images/media/meals/lwsnkl1604181186.jpg",
+        "ingredients": ["pork cutlet", "flour", "egg", "panko breadcrumbs", "oil", "tonkatsu sauce"],
+        "instructions": [
+          "Coat pork cutlets in flour, egg, and panko.",
+          "Fry until golden and crispy.",
+          "Serve with tonkatsu sauce."
+        ],
+        "tags": ["japanese", "pork"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "shrimps-etouffee",
+        "title": "Shrimp Étouffée",
+        "image": "https://www.themealdb.com/images/media/meals/wruvqv1511880994.jpg",
+        "ingredients": ["shrimp", "onion", "bell pepper", "celery", "tomato", "cajun seasoning", "butter"],
+        "instructions": [
+          "Make a roux with butter and flour.",
+          "Add vegetables and seasonings.",
+          "Simmer with shrimp until cooked."
+        ],
+        "tags": ["cajun", "seafood"],
+        "timeMinutes": 55,
+        "servings": 4
+      },
+      {
+        "id": "beef-galbi",
+        "title": "Korean Beef Galbi",
+        "image": "https://www.themealdb.com/images/media/meals/ssrrrs1503664277.jpg",
+        "ingredients": ["beef short ribs", "soy sauce", "garlic", "ginger", "sugar", "sesame oil", "green onion"],
+        "instructions": [
+          "Marinate short ribs in soy, garlic, ginger, and sesame oil.",
+          "Grill until caramelized and tender."
+        ],
+        "tags": ["korean", "bbq"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "beef-lo-mein",
+        "title": "Beef Lo Mein",
+        "image": "https://www.themealdb.com/images/media/meals/1529443972.jpg",
+        "ingredients": ["lo mein noodles", "beef strips", "soy sauce", "garlic", "ginger", "carrot", "broccoli"],
+        "instructions": [
+          "Boil noodles until soft.",
+          "Stir-fry beef and vegetables.",
+          "Toss with noodles and sauce."
+        ],
+        "tags": ["chinese", "beef"],
+        "timeMinutes": 35,
+        "servings": 3
+      },
+      {
+        "id": "creamy-polenta",
+        "title": "Creamy Polenta",
+        "image": "https://www.themealdb.com/images/media/meals/7n8su21699013057.jpg",
+        "ingredients": ["cornmeal", "milk", "butter", "parmesan", "salt"],
+        "instructions": [
+          "Whisk cornmeal into simmering milk.",
+          "Cook until thick and creamy.",
+          "Stir in butter and parmesan."
+        ],
+        "tags": ["italian", "side"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "beef-manhattan",
+        "title": "Hot Beef Manhattan",
+        "image": "https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg",
+        "ingredients": ["roast beef", "bread", "mashed potatoes", "gravy"],
+        "instructions": [
+          "Place beef on bread slices.",
+          "Top with mashed potatoes.",
+          "Pour gravy generously over all."
+        ],
+        "tags": ["american", "comfort-food"],
+        "timeMinutes": 30,
+        "servings": 2
+      },
+      {
+        "id": "stuffed-eggplant",
+        "title": "Stuffed Eggplant",
+        "image": "https://www.themealdb.com/images/media/meals/ysqrus1487425681.jpg",
+        "ingredients": ["eggplant", "ground beef", "onion", "tomato", "garlic", "parsley", "rice"],
+        "instructions": [
+          "Hollow out eggplants.",
+          "Fill with beef, rice, and vegetables.",
+          "Bake until tender and golden."
+        ],
+        "tags": ["mediterranean", "comfort-food"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "beef-nachos",
+        "title": "Beef Nachos",
+        "image": "https://www.themealdb.com/images/media/meals/utpxxq1487324070.jpg",
+        "ingredients": ["tortilla chips", "ground beef", "cheddar", "tomato", "jalapeno", "sour cream"],
+        "instructions": [
+          "Cook beef with spices.",
+          "Layer chips with beef and cheese.",
+          "Bake until cheese melts, top with garnishes."
+        ],
+        "tags": ["mexican", "snack"],
+        "timeMinutes": 25,
+        "servings": 4
+      },
+      {
+        "id": "pierna-asada",
+        "title": "Pierna Asada (Roast Pork Leg)",
+        "image": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+        "ingredients": ["pork leg", "garlic", "orange juice", "vinegar", "oregano", "salt", "pepper"],
+        "instructions": [
+          "Marinate pork leg in garlic, citrus, and spices.",
+          "Roast slowly until tender and juicy."
+        ],
+        "tags": ["mexican", "roast"],
+        "timeMinutes": 180,
+        "servings": 8
+      },
+      {
+        "id": "cullen-skink",
+        "title": "Cullen Skink",
+        "image": "https://www.themealdb.com/images/media/meals/2trgsy1511767400.jpg",
+        "ingredients": ["smoked haddock", "potato", "onion", "milk", "butter", "parsley"],
+        "instructions": [
+          "Simmer haddock in milk, remove and flake.",
+          "Add potatoes and onions to milk, cook until soft.",
+          "Return fish, season, and serve hot."
+        ],
+        "tags": ["scottish", "soup"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "arancini",
+        "title": "Arancini",
+        "image": "https://www.themealdb.com/images/media/meals/1c5b29f8-4c0b-4c9a-a8c2-5df43e7a995d.jpg",
+        "ingredients": ["risotto rice", "parmesan", "mozzarella", "breadcrumbs", "egg", "oil"],
+        "instructions": [
+          "Form cold risotto into balls with cheese centers.",
+          "Coat in egg and breadcrumbs.",
+          "Fry until golden brown."
+        ],
+        "tags": ["italian", "snack"],
+        "timeMinutes": 70,
+        "servings": 6
+      },
+      {
+        "id": "lobster-roll",
+        "title": "Lobster Roll",
+        "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+        "ingredients": ["lobster meat", "hot dog buns", "butter", "mayonnaise", "lemon juice", "celery"],
+        "instructions": [
+          "Mix lobster with mayo, lemon, and celery.",
+          "Toast buns with butter.",
+          "Fill buns generously with lobster mixture."
+        ],
+        "tags": ["american", "seafood"],
+        "timeMinutes": 25,
+        "servings": 2
+      },
+      {
+        "id": "pollo-asado",
+        "title": "Pollo Asado",
+        "image": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        "ingredients": ["chicken", "orange juice", "lime juice", "garlic", "oregano", "cumin"],
+        "instructions": [
+          "Marinate chicken in citrus and spices.",
+          "Grill or roast until golden and juicy."
+        ],
+        "tags": ["mexican", "chicken"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "matzo-ball-soup",
+        "title": "Matzo Ball Soup",
+        "image": "https://www.themealdb.com/images/media/meals/ytuvwr1503070420.jpg",
+        "ingredients": ["matzo meal", "egg", "chicken fat", "chicken stock", "carrot", "celery"],
+        "instructions": [
+          "Mix matzo meal with eggs and fat, chill.",
+          "Shape into balls and simmer in chicken stock.",
+          "Serve with vegetables."
+        ],
+        "tags": ["jewish", "soup"],
+        "timeMinutes": 60,
+        "servings": 6
+      },
+      {
+        "id": "beef-kharcho",
+        "title": "Beef Kharcho",
+        "image": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+        "ingredients": ["beef", "rice", "onion", "tomato paste", "walnuts", "garlic", "spices"],
+        "instructions": [
+          "Brown beef and onion.",
+          "Add rice, walnuts, and tomato paste.",
+          "Simmer with spices until rich and tender."
+        ],
+        "tags": ["georgian", "stew"],
+        "timeMinutes": 100,
+        "servings": 5
+      },
+      {
+        "id": "sauerbraten",
+        "title": "Sauerbraten",
+        "image": "https://www.themealdb.com/images/media/meals/vvopwu1511783913.jpg",
+        "ingredients": ["beef roast", "vinegar", "red wine", "onion", "carrot", "gingersnap cookies", "spices"],
+        "instructions": [
+          "Marinate beef in vinegar, wine, and spices for days.",
+          "Slowly braise with vegetables until tender.",
+          "Finish with gingersnap-thickened sauce."
+        ],
+        "tags": ["german", "beef"],
+        "timeMinutes": 240,
+        "servings": 6
+      },
+      {
+        "id": "couscous-royale",
+        "title": "Couscous Royale",
+        "image": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+        "ingredients": ["couscous", "lamb", "chicken", "merguez sausage", "chickpeas", "carrot", "zucchini"],
+        "instructions": [
+          "Cook meats with vegetables and spices.",
+          "Steam couscous until fluffy.",
+          "Serve meats and broth over couscous."
+        ],
+        "tags": ["moroccan", "north-african"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "beef-chimichangas",
+        "title": "Beef Chimichangas",
+        "image": "https://www.themealdb.com/images/media/meals/utxqpt1511639216.jpg",
+        "ingredients": ["tortilla", "ground beef", "onion", "cheddar", "salsa", "oil"],
+        "instructions": [
+          "Fill tortillas with beef and cheese.",
+          "Fold and deep fry until golden.",
+          "Serve with salsa and sour cream."
+        ],
+        "tags": ["mexican", "fried"],
+        "timeMinutes": 45,
+        "servings": 4
+      },
+      {
+        "id": "beef-sinigang",
+        "title": "Beef Sinigang",
+        "image": "https://www.themealdb.com/images/media/meals/utpm2r1511498399.jpg",
+        "ingredients": ["beef", "tamarind paste", "tomato", "onion", "spinach", "radish", "eggplant"],
+        "instructions": [
+          "Boil beef until tender.",
+          "Add tamarind, vegetables, and seasonings.",
+          "Simmer until sour and flavorful."
+        ],
+        "tags": ["filipino", "soup"],
+        "timeMinutes": 120,
+        "servings": 5
+      },
+      {
+        "id": "shrimp-tempura",
+        "title": "Shrimp Tempura",
+        "image": "https://www.themealdb.com/images/media/meals/tnwy8m1628770384.jpg",
+        "ingredients": ["shrimp", "flour", "cornstarch", "egg", "cold water", "oil"],
+        "instructions": [
+          "Mix light batter with cold water.",
+          "Dip shrimp and fry until crispy."
+        ],
+        "tags": ["japanese", "seafood"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "lamb-tagine",
+        "title": "Lamb Tagine",
+        "image": "https://www.themealdb.com/images/media/meals/yuwtuu1511295751.jpg",
+        "ingredients": ["lamb", "apricots", "onion", "tomato", "ginger", "garlic", "spices"],
+        "instructions": [
+          "Brown lamb with onion and garlic.",
+          "Add spices, tomato, and dried fruit.",
+          "Simmer slowly until fragrant and tender."
+        ],
+        "tags": ["moroccan", "stew"],
+        "timeMinutes": 150,
+        "servings": 5
+      },
+      {
+        "id": "beef-kotleti",
+        "title": "Beef Kotleti",
+        "image": "https://www.themealdb.com/images/media/meals/9dcbba1587671004.jpg",
+        "ingredients": ["ground beef", "bread crumbs", "onion", "egg", "milk", "oil"],
+        "instructions": [
+          "Mix beef with soaked bread, onion, and egg.",
+          "Shape into patties and pan-fry until browned."
+        ],
+        "tags": ["russian", "comfort-food"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "beef-niku-udon",
+        "title": "Niku Udon",
+        "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
+        "ingredients": ["udon noodles", "beef slices", "dashi stock", "soy sauce", "mirin", "onion"],
+        "instructions": [
+          "Prepare dashi with soy and mirin.",
+          "Add beef and onion, simmer briefly.",
+          "Serve with cooked udon noodles."
+        ],
+        "tags": ["japanese", "noodles"],
+        "timeMinutes": 40,
+        "servings": 2
+      },
+      {
+        "id": "spanish-flan",
+        "title": "Spanish Flan",
+        "image": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+        "ingredients": ["milk", "sugar", "egg", "vanilla", "caramel"],
+        "instructions": [
+          "Caramelize sugar in molds.",
+          "Mix milk, eggs, and vanilla.",
+          "Bake custard in water bath until set."
+        ],
+        "tags": ["spanish", "dessert"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "beef-caldo",
+        "title": "Caldo de Res",
+        "image": "https://www.themealdb.com/images/media/meals/lqlrrw1511710608.jpg",
+        "ingredients": ["beef shank", "corn", "potato", "carrot", "cabbage", "zucchini"],
+        "instructions": [
+          "Simmer beef with vegetables until tender.",
+          "Serve hot with lime and tortillas."
+        ],
+        "tags": ["mexican", "soup"],
+        "timeMinutes": 150,
+        "servings": 6
+      },
+      {
+        "id": "pasta-puttanesca",
+        "title": "Pasta Puttanesca",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "ingredients": ["spaghetti", "anchovies", "tomato", "olive", "capers", "garlic", "chili flakes"],
+        "instructions": [
+          "Sauté garlic and anchovies in olive oil.",
+          "Add tomato, olives, and capers.",
+          "Toss with spaghetti until coated."
+        ],
+        "tags": ["italian", "pasta"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "stuffed-zucchini",
+        "title": "Stuffed Zucchini",
+        "image": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+        "ingredients": ["zucchini", "ground lamb", "onion", "rice", "tomato", "garlic", "herbs"],
+        "instructions": [
+          "Hollow out zucchinis.",
+          "Fill with lamb, rice, and vegetables.",
+          "Simmer in tomato sauce until tender."
+        ],
+        "tags": ["mediterranean", "comfort-food"],
+        "timeMinutes": 75,
+        "servings": 4
+      },
+      {
+        "id": "chicken-fricassee",
+        "title": "Chicken Fricassée",
+        "image": "https://www.themealdb.com/images/media/meals/uyqrrv1511553350.jpg",
+        "ingredients": ["chicken", "mushroom", "onion", "carrot", "white wine", "cream", "herbs"],
+        "instructions": [
+          "Brown chicken and set aside.",
+          "Cook vegetables and deglaze with wine.",
+          "Simmer chicken in cream sauce until tender."
+        ],
+        "tags": ["french", "chicken"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "fish-tacos",
+        "title": "Fish Tacos",
+        "image": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
+        "ingredients": ["white fish", "tortillas", "cabbage", "lime", "sour cream", "cilantro"],
+        "instructions": [
+          "Season and grill fish.",
+          "Assemble tacos with cabbage and cream sauce.",
+          "Squeeze lime and serve."
+        ],
+        "tags": ["mexican", "seafood"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "beef-osso-buco",
+        "title": "Beef Osso Buco",
+        "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+        "ingredients": ["beef shanks", "onion", "carrot", "celery", "tomato", "stock", "wine"],
+        "instructions": [
+          "Brown beef shanks.",
+          "Add vegetables, tomato, and wine.",
+          "Simmer with stock until tender."
+        ],
+        "tags": ["italian", "stew"],
+        "timeMinutes": 160,
+        "servings": 4
+      },
+      {
+        "id": "clam-risotto",
+        "title": "Clam Risotto",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["arborio rice", "clams", "white wine", "garlic", "onion", "stock", "parsley"],
+        "instructions": [
+          "Sauté onion and garlic.",
+          "Add rice and toast lightly.",
+          "Deglaze with wine, add stock gradually, finish with clams."
+        ],
+        "tags": ["italian", "seafood"],
+        "timeMinutes": 55,
+        "servings": 4
+      },
+      {
+        "id": "pork-adobo",
+        "title": "Pork Adobo",
+        "image": "https://www.themealdb.com/images/media/meals/poywpa1511724296.jpg",
+        "ingredients": ["pork belly", "soy sauce", "vinegar", "garlic", "bay leaf", "peppercorns"],
+        "instructions": [
+          "Marinate pork in soy, vinegar, and garlic.",
+          "Simmer with bay leaves and peppercorns until tender."
+        ],
+        "tags": ["filipino", "pork"],
+        "timeMinutes": 90,
+        "servings": 5
+      },
+      {
+        "id": "mulligatawny-soup",
+        "title": "Mulligatawny Soup",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "onion", "carrot", "apple", "rice", "curry powder", "stock"],
+        "instructions": [
+          "Sauté onion, carrot, and apple with curry.",
+          "Add chicken, rice, and stock.",
+          "Simmer until flavors blend."
+        ],
+        "tags": ["indian", "soup"],
+        "timeMinutes": 65,
+        "servings": 6
+      },
+      {
+        "id": "pork-gyoza",
+        "title": "Pork Gyoza",
+        "image": "https://www.themealdb.com/images/media/meals/20j1jq1582472166.jpg",
+        "ingredients": ["ground pork", "cabbage", "garlic", "ginger", "soy sauce", "gyoza wrappers"],
+        "instructions": [
+          "Mix pork with cabbage and seasonings.",
+          "Wrap in gyoza skins.",
+          "Pan-fry and steam until golden."
+        ],
+        "tags": ["japanese", "dumplings"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "beef-bobotie",
+        "title": "Beef Bobotie",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["ground beef", "bread", "milk", "onion", "curry powder", "egg"],
+        "instructions": [
+          "Soak bread in milk and mix with beef.",
+          "Add spices and onions, bake with egg custard topping."
+        ],
+        "tags": ["south-african", "casserole"],
+        "timeMinutes": 95,
+        "servings": 6
+      },
+      {
+        "id": "shrimp-gumbo",
+        "title": "Shrimp Gumbo",
+        "image": "https://www.themealdb.com/images/media/meals/wruvqv1511880994.jpg",
+        "ingredients": ["shrimp", "andouille sausage", "okra", "onion", "bell pepper", "celery", "roux"],
+        "instructions": [
+          "Make roux and cook vegetables.",
+          "Add sausage, shrimp, and stock.",
+          "Simmer until rich and thick."
+        ],
+        "tags": ["cajun", "seafood"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "beef-shawarma",
+        "title": "Beef Shawarma",
+        "image": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+        "ingredients": ["beef", "yogurt", "garlic", "lemon juice", "spices", "pita bread"],
+        "instructions": [
+          "Marinate beef in yogurt, lemon, and spices.",
+          "Grill and slice thin.",
+          "Serve in pita with sauce and vegetables."
+        ],
+        "tags": ["middle-eastern", "street-food"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "stuffed-salmon",
+        "title": "Stuffed Salmon",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["salmon fillet", "spinach", "cream cheese", "garlic", "lemon"],
+        "instructions": [
+          "Butterfly salmon fillet.",
+          "Stuff with spinach and cream cheese.",
+          "Bake until flaky and tender."
+        ],
+        "tags": ["seafood", "baked"],
+        "timeMinutes": 45,
+        "servings": 4
+      },
+      {
+        "id": "tortilla-soup",
+        "title": "Tortilla Soup",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["chicken stock", "tomato", "onion", "garlic", "tortilla strips", "avocado", "lime"],
+        "instructions": [
+          "Simmer tomato, onion, and garlic in stock.",
+          "Add fried tortilla strips.",
+          "Serve with avocado and lime."
+        ],
+        "tags": ["mexican", "soup"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "veal-saltimbocca",
+        "title": "Veal Saltimbocca",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["veal cutlets", "prosciutto", "sage", "butter", "white wine"],
+        "instructions": [
+          "Layer veal with prosciutto and sage.",
+          "Sauté in butter, deglaze with wine."
+        ],
+        "tags": ["italian", "veal"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "beef-cachapas",
+        "title": "Beef Cachapas",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["cornmeal", "sweetcorn", "beef strips", "cheese", "milk", "egg"],
+        "instructions": [
+          "Make batter with corn and cornmeal.",
+          "Cook pancakes and fill with beef and cheese."
+        ],
+        "tags": ["venezuelan", "street-food"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "pasta-primavera",
+        "title": "Pasta Primavera",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+        "ingredients": ["pasta", "zucchini", "carrot", "bell pepper", "peas", "parmesan"],
+        "instructions": [
+          "Cook pasta until al dente.",
+          "Sauté vegetables lightly.",
+          "Toss with pasta and parmesan."
+        ],
+        "tags": ["italian", "vegetarian"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "beef-menudo",
+        "title": "Beef Menudo",
+        "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+        "ingredients": ["beef tripe", "hominy", "onion", "garlic", "chili", "oregano"],
+        "instructions": [
+          "Boil tripe until tender.",
+          "Add hominy, chili, and seasonings.",
+          "Simmer until rich and hearty."
+        ],
+        "tags": ["mexican", "stew"],
+        "timeMinutes": 180,
+        "servings": 6
+      },
+      {
+        "id": "pumpkin-pie",
+        "title": "Pumpkin Pie",
+        "image": "https://www.themealdb.com/images/media/meals/usuqtp1511385394.jpg",
+        "ingredients": ["pumpkin puree", "pie crust", "egg", "cream", "sugar", "spices"],
+        "instructions": [
+          "Mix pumpkin with eggs, sugar, and spices.",
+          "Pour into pie crust.",
+          "Bake until set and golden."
+        ],
+        "tags": ["american", "dessert"],
+        "timeMinutes": 90,
+        "servings": 8
+      },
+      {
+        "id": "chicken-tortellini-soup",
+        "title": "Chicken Tortellini Soup",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["chicken stock", "tortellini", "chicken breast", "carrot", "celery", "onion", "parsley"],
+        "instructions": [
+          "Simmer chicken and vegetables in stock.",
+          "Add tortellini and cook until tender.",
+          "Season and serve hot."
+        ],
+        "tags": ["italian", "soup"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "beef-empanada-pie",
+        "title": "Beef Empanada Pie",
+        "image": "https://www.themealdb.com/images/media/meals/1529446352.jpg",
+        "ingredients": ["pie crust", "ground beef", "onion", "tomato", "spices", "egg"],
+        "instructions": [
+          "Cook beef with onion, tomato, and spices.",
+          "Fill pie crust and cover with top layer.",
+          "Bake until golden and crisp."
+        ],
+        "tags": ["argentinian", "baked"],
+        "timeMinutes": 70,
+        "servings": 6
+      },
+      {
+        "id": "beef-cacciatore",
+        "title": "Beef Cacciatore",
+        "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+        "ingredients": ["beef chunks", "tomato", "onion", "mushroom", "wine", "garlic", "herbs"],
+        "instructions": [
+          "Brown beef with onion and garlic.",
+          "Add tomato, mushroom, and wine.",
+          "Simmer until beef is tender."
+        ],
+        "tags": ["italian", "stew"],
+        "timeMinutes": 110,
+        "servings": 5
+      },
+      {
+        "id": "crab-cakes",
+        "title": "Crab Cakes",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["crab meat", "breadcrumbs", "egg", "mayonnaise", "mustard", "parsley", "oil"],
+        "instructions": [
+          "Mix crab with breadcrumbs, egg, and mayo.",
+          "Shape into patties and pan-fry until golden."
+        ],
+        "tags": ["american", "seafood"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "beef-salisbury-steak",
+        "title": "Salisbury Steak",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["ground beef", "breadcrumbs", "egg", "onion", "mushroom", "gravy"],
+        "instructions": [
+          "Mix beef with egg and breadcrumbs, shape patties.",
+          "Brown patties and simmer in mushroom gravy."
+        ],
+        "tags": ["american", "comfort-food"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "stuffed-shells",
+        "title": "Stuffed Pasta Shells",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["pasta shells", "ricotta", "spinach", "parmesan", "tomato sauce", "mozzarella"],
+        "instructions": [
+          "Boil pasta shells until tender.",
+          "Fill with ricotta and spinach mixture.",
+          "Bake with tomato sauce and mozzarella."
+        ],
+        "tags": ["italian", "vegetarian"],
+        "timeMinutes": 70,
+        "servings": 5
+      },
+      {
+        "id": "clam-fritters",
+        "title": "Clam Fritters",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["clams", "flour", "egg", "milk", "baking powder", "oil"],
+        "instructions": [
+          "Mix chopped clams with batter.",
+          "Drop spoonfuls into hot oil and fry until golden."
+        ],
+        "tags": ["american", "seafood"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "chicken-pot-pie",
+        "title": "Chicken Pot Pie",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "carrot", "peas", "onion", "pie crust", "cream"],
+        "instructions": [
+          "Cook chicken and vegetables in cream sauce.",
+          "Fill pie crust and cover with top.",
+          "Bake until golden and bubbling."
+        ],
+        "tags": ["american", "baked"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "shrimp-cocktail",
+        "title": "Shrimp Cocktail",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["shrimp", "cocktail sauce", "lemon"],
+        "instructions": [
+          "Boil shrimp until pink.",
+          "Chill and serve with cocktail sauce and lemon."
+        ],
+        "tags": ["seafood", "appetizer"],
+        "timeMinutes": 20,
+        "servings": 4
+      },
+      {
+        "id": "beef-mapo-tofu",
+        "title": "Mapo Tofu",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["ground beef", "tofu", "chili bean paste", "soy sauce", "ginger", "garlic", "green onion"],
+        "instructions": [
+          "Stir-fry beef with garlic and ginger.",
+          "Add tofu, chili paste, and seasonings.",
+          "Simmer briefly and garnish with green onion."
+        ],
+        "tags": ["chinese", "spicy"],
+        "timeMinutes": 40,
+        "servings": 4
+      },
+      {
+        "id": "spanakopita",
+        "title": "Spanakopita",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["phyllo pastry", "spinach", "feta", "egg", "onion", "dill", "butter"],
+        "instructions": [
+          "Layer phyllo with butter and spinach-feta mixture.",
+          "Bake until golden and crisp."
+        ],
+        "tags": ["greek", "vegetarian"],
+        "timeMinutes": 80,
+        "servings": 6
+      },
+      {
+        "id": "chicken-tetrazzini",
+        "title": "Chicken Tetrazzini",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["spaghetti", "chicken", "mushroom", "cream", "parmesan", "bread crumbs"],
+        "instructions": [
+          "Cook spaghetti and mix with chicken, mushroom, and cream.",
+          "Top with cheese and crumbs, bake until golden."
+        ],
+        "tags": ["american", "pasta"],
+        "timeMinutes": 75,
+        "servings": 6
+      },
+      {
+        "id": "cajun-jambalaya",
+        "title": "Cajun Jambalaya",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["rice", "chicken", "sausage", "shrimp", "tomato", "onion", "bell pepper"],
+        "instructions": [
+          "Cook chicken and sausage with vegetables.",
+          "Add rice, tomato, and stock.",
+          "Simmer until rice is tender, add shrimp at the end."
+        ],
+        "tags": ["cajun", "rice"],
+        "timeMinutes": 80,
+        "servings": 6
+      },
+      {
+        "id": "beef-carpaccio",
+        "title": "Beef Carpaccio",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef tenderloin", "olive oil", "parmesan", "arugula", "lemon"],
+        "instructions": [
+          "Slice beef paper-thin.",
+          "Arrange with arugula and parmesan.",
+          "Drizzle with olive oil and lemon."
+        ],
+        "tags": ["italian", "appetizer"],
+        "timeMinutes": 20,
+        "servings": 2
+      },
+      {
+        "id": "pork-stroganoff",
+        "title": "Pork Stroganoff",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["pork strips", "onion", "mushroom", "sour cream", "stock", "paprika"],
+        "instructions": [
+          "Cook pork with onion and mushroom.",
+          "Add paprika and stock.",
+          "Stir in sour cream before serving."
+        ],
+        "tags": ["russian", "pork"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "stuffed-chicken-breast",
+        "title": "Stuffed Chicken Breast",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken breast", "spinach", "cheese", "garlic", "herbs"],
+        "instructions": [
+          "Butterfly chicken breast.",
+          "Stuff with spinach and cheese.",
+          "Bake until cooked through."
+        ],
+        "tags": ["chicken", "baked"],
+        "timeMinutes": 55,
+        "servings": 4
+      },
+      {
+        "id": "beef-barbacoa",
+        "title": "Beef Barbacoa",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef chuck", "chipotle chili", "garlic", "cumin", "vinegar", "onion"],
+        "instructions": [
+          "Season and slow-cook beef with spices.",
+          "Shred and serve in tacos or bowls."
+        ],
+        "tags": ["mexican", "slow-cooked"],
+        "timeMinutes": 240,
+        "servings": 6
+      },
+      {
+        "id": "beef-karaage",
+        "title": "Beef Karaage",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef strips", "soy sauce", "ginger", "garlic", "potato starch", "oil"],
+        "instructions": [
+          "Marinate beef in soy, garlic, and ginger.",
+          "Coat with potato starch.",
+          "Deep-fry until golden and crisp."
+        ],
+        "tags": ["japanese", "fried"],
+        "timeMinutes": 45,
+        "servings": 4
+      },
+      {
+        "id": "chicken-enchilada-casserole",
+        "title": "Chicken Enchilada Casserole",
+        "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+        "ingredients": ["tortilla", "chicken", "enchilada sauce", "cheddar", "onion", "beans"],
+        "instructions": [
+          "Layer tortillas with chicken, beans, sauce, and cheese.",
+          "Bake until bubbly and golden."
+        ],
+        "tags": ["mexican", "baked"],
+        "timeMinutes": 80,
+        "servings": 6
+      },
+      {
+        "id": "seafood-chow-mein",
+        "title": "Seafood Chow Mein",
+        "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
+        "ingredients": ["noodles", "shrimp", "squid", "soy sauce", "cabbage", "carrot", "onion"],
+        "instructions": [
+          "Boil noodles until soft.",
+          "Stir-fry seafood and vegetables.",
+          "Add noodles and sauce, toss well."
+        ],
+        "tags": ["chinese", "seafood"],
+        "timeMinutes": 40,
+        "servings": 3
+      },
+      {
+        "id": "beef-samosas",
+        "title": "Beef Samosas",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["ground beef", "onion", "peas", "curry powder", "pastry sheets", "oil"],
+        "instructions": [
+          "Cook beef with onion, peas, and spices.",
+          "Fill pastry sheets, fold, and seal.",
+          "Fry until golden and crisp."
+        ],
+        "tags": ["indian", "snack"],
+        "timeMinutes": 50,
+        "servings": 6
+      },
+      {
+        "id": "beef-ravioli",
+        "title": "Beef Ravioli",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["pasta dough", "ground beef", "parmesan", "onion", "egg", "tomato sauce"],
+        "instructions": [
+          "Prepare pasta dough and roll thin.",
+          "Fill with beef mixture and seal.",
+          "Boil until cooked, serve with tomato sauce."
+        ],
+        "tags": ["italian", "pasta"],
+        "timeMinutes": 120,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-pad-kee-mao",
+        "title": "Shrimp Pad Kee Mao",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["rice noodles", "shrimp", "soy sauce", "fish sauce", "garlic", "basil", "chili"],
+        "instructions": [
+          "Soak rice noodles until soft.",
+          "Stir-fry shrimp with garlic and chili.",
+          "Add noodles and sauces, toss with basil."
+        ],
+        "tags": ["thai", "seafood"],
+        "timeMinutes": 35,
+        "servings": 3
+      },
+      {
+        "id": "chicken-biryani",
+        "title": "Chicken Biryani",
+        "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+        "ingredients": ["basmati rice", "chicken", "onion", "ginger", "garlic", "spices", "yogurt"],
+        "instructions": [
+          "Cook spiced chicken curry.",
+          "Layer with parboiled rice.",
+          "Steam until fragrant and flavorful."
+        ],
+        "tags": ["indian", "rice"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "beef-fajita-bowl",
+        "title": "Beef Fajita Bowl",
+        "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+        "ingredients": ["beef strips", "rice", "black beans", "bell pepper", "onion", "salsa"],
+        "instructions": [
+          "Sear beef strips with peppers and onions.",
+          "Serve over rice with beans and salsa."
+        ],
+        "tags": ["mexican", "bowl"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-paella",
+        "title": "Shrimp Paella",
+        "image": "https://www.themealdb.com/images/media/meals/ldnrm91576791881.jpg",
+        "ingredients": ["rice", "shrimp", "saffron", "onion", "pepper", "chicken stock", "garlic"],
+        "instructions": [
+          "Sauté onion and peppers in oil.",
+          "Add rice and saffron.",
+          "Simmer with stock, add shrimp to finish."
+        ],
+        "tags": ["spanish", "seafood"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "pork-bao-buns",
+        "title": "Pork Bao Buns",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["bao dough", "pork belly", "soy sauce", "hoisin sauce", "cucumber", "scallion"],
+        "instructions": [
+          "Steam bao buns until fluffy.",
+          "Cook pork belly with soy and hoisin.",
+          "Fill buns with pork, cucumber, and scallion."
+        ],
+        "tags": ["chinese", "street-food"],
+        "timeMinutes": 150,
+        "servings": 6
+      },
+      {
+        "id": "lobster-thermidor",
+        "title": "Lobster Thermidor",
+        "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+        "ingredients": ["lobster", "cream", "mustard", "parmesan", "mushroom", "brandy"],
+        "instructions": [
+          "Cook lobster and remove meat.",
+          "Mix with creamy sauce and stuff back into shells.",
+          "Bake until golden on top."
+        ],
+        "tags": ["french", "seafood"],
+        "timeMinutes": 90,
+        "servings": 2
+      },
+      {
+        "id": "chili-dogs",
+        "title": "Chili Dogs",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["hot dog buns", "sausages", "chili con carne", "cheddar", "onion"],
+        "instructions": [
+          "Grill sausages and place in buns.",
+          "Top with chili, cheese, and onion."
+        ],
+        "tags": ["american", "street-food"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "beef-sheekh-kebab",
+        "title": "Beef Seekh Kebab",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["ground beef", "onion", "garlic", "ginger", "spices", "coriander"],
+        "instructions": [
+          "Mix beef with spices and onion.",
+          "Shape onto skewers.",
+          "Grill until charred and cooked."
+        ],
+        "tags": ["pakistani", "grill"],
+        "timeMinutes": 55,
+        "servings": 5
+      },
+      {
+        "id": "seafood-bisque",
+        "title": "Seafood Bisque",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["shrimp", "lobster", "cream", "tomato paste", "onion", "brandy"],
+        "instructions": [
+          "Cook shells for stock.",
+          "Simmer with tomato and cream.",
+          "Blend smooth and strain."
+        ],
+        "tags": ["french", "soup"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "beef-lasagna-rolls",
+        "title": "Beef Lasagna Rolls",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["lasagna sheets", "ground beef", "ricotta", "parmesan", "tomato sauce", "mozzarella"],
+        "instructions": [
+          "Spread ricotta and beef on lasagna sheets.",
+          "Roll up and place in baking dish.",
+          "Top with sauce and mozzarella, bake."
+        ],
+        "tags": ["italian", "pasta"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "stuffed-pork-chops",
+        "title": "Stuffed Pork Chops",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["pork chops", "spinach", "bread crumbs", "cheese", "garlic"],
+        "instructions": [
+          "Butterfly pork chops.",
+          "Stuff with spinach, cheese, and crumbs.",
+          "Bake until juicy."
+        ],
+        "tags": ["american", "pork"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "chicken-makhani",
+        "title": "Chicken Makhani (Butter Chicken)",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["chicken", "butter", "tomato", "cream", "garam masala", "garlic", "ginger"],
+        "instructions": [
+          "Cook chicken in butter.",
+          "Simmer in spiced tomato cream sauce.",
+          "Serve with rice or naan."
+        ],
+        "tags": ["indian", "chicken"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-curry",
+        "title": "Shrimp Curry",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["shrimp", "onion", "garlic", "ginger", "tomato", "coconut milk", "spices"],
+        "instructions": [
+          "Sauté onion, garlic, and ginger with spices.",
+          "Add tomato and coconut milk.",
+          "Simmer with shrimp until cooked."
+        ],
+        "tags": ["indian", "seafood"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "beef-tamales",
+        "title": "Beef Tamales",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["masa harina", "beef", "chili paste", "corn husks", "lard", "spices"],
+        "instructions": [
+          "Soak corn husks until pliable.",
+          "Spread masa and fill with beef mixture.",
+          "Wrap and steam until firm."
+        ],
+        "tags": ["mexican", "street-food"],
+        "timeMinutes": 150,
+        "servings": 8
+      },
+      {
+        "id": "chicken-korma",
+        "title": "Chicken Korma",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "yogurt", "onion", "almonds", "ginger", "garlic", "spices", "cream"],
+        "instructions": [
+          "Cook onion, garlic, and ginger with spices.",
+          "Add chicken, yogurt, and almonds.",
+          "Simmer in cream until tender."
+        ],
+        "tags": ["indian", "chicken"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "beef-gulyas-soup",
+        "title": "Hungarian Gulyás Soup",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef", "potato", "onion", "carrot", "paprika", "tomato", "caraway seeds"],
+        "instructions": [
+          "Brown beef with onion and paprika.",
+          "Add vegetables and water.",
+          "Simmer until beef and potatoes are tender."
+        ],
+        "tags": ["hungarian", "soup"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "shrimp-fried-rice",
+        "title": "Shrimp Fried Rice",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["rice", "shrimp", "egg", "soy sauce", "peas", "carrot", "green onion"],
+        "instructions": [
+          "Scramble eggs and set aside.",
+          "Stir-fry shrimp and vegetables.",
+          "Add rice, soy sauce, and eggs, toss well."
+        ],
+        "tags": ["chinese", "seafood"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "beef-bulgur-pilaf",
+        "title": "Beef Bulgur Pilaf",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["bulgur", "beef", "onion", "tomato paste", "pepper", "butter"],
+        "instructions": [
+          "Brown beef and onion.",
+          "Stir in tomato paste and bulgur.",
+          "Add water and cook until absorbed."
+        ],
+        "tags": ["turkish", "rice"],
+        "timeMinutes": 70,
+        "servings": 4
+      },
+      {
+        "id": "beef-lo-mein-noodles",
+        "title": "Beef Lo Mein Noodles",
+        "image": "https://www.themealdb.com/images/media/meals/1529443972.jpg",
+        "ingredients": ["lo mein noodles", "beef strips", "soy sauce", "broccoli", "carrot", "ginger", "garlic"],
+        "instructions": [
+          "Boil noodles until soft.",
+          "Stir-fry beef and vegetables.",
+          "Toss with noodles and sauce."
+        ],
+        "tags": ["chinese", "beef"],
+        "timeMinutes": 40,
+        "servings": 3
+      },
+      {
+        "id": "stuffed-bell-peppers",
+        "title": "Stuffed Bell Peppers",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["bell peppers", "rice", "ground beef", "tomato sauce", "onion", "garlic"],
+        "instructions": [
+          "Hollow out peppers.",
+          "Fill with beef, rice, and vegetables.",
+          "Bake in tomato sauce until tender."
+        ],
+        "tags": ["american", "comfort-food"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "chicken-lo-mein",
+        "title": "Chicken Lo Mein",
+        "image": "https://www.themealdb.com/images/media/meals/1529443972.jpg",
+        "ingredients": ["lo mein noodles", "chicken", "soy sauce", "carrot", "broccoli", "garlic"],
+        "instructions": [
+          "Cook noodles until tender.",
+          "Stir-fry chicken and vegetables.",
+          "Toss with noodles and sauce."
+        ],
+        "tags": ["chinese", "chicken"],
+        "timeMinutes": 40,
+        "servings": 3
+      },
+      {
+        "id": "beef-hamburgers",
+        "title": "Classic Beef Hamburgers",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["ground beef", "burger buns", "lettuce", "tomato", "onion", "cheddar"],
+        "instructions": [
+          "Season beef and shape into patties.",
+          "Grill until cooked to preference.",
+          "Serve in buns with toppings."
+        ],
+        "tags": ["american", "fast-food"],
+        "timeMinutes": 30,
+        "servings": 4
+      },
+      {
+        "id": "eggplant-rollatini",
+        "title": "Eggplant Rollatini",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["eggplant", "ricotta", "parmesan", "tomato sauce", "mozzarella", "herbs"],
+        "instructions": [
+          "Slice and roast eggplant.",
+          "Fill with ricotta and herbs, roll up.",
+          "Bake with tomato sauce and mozzarella."
+        ],
+        "tags": ["italian", "vegetarian"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-tostadas",
+        "title": "Shrimp Tostadas",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["shrimp", "tostada shells", "refried beans", "lettuce", "salsa", "cheese"],
+        "instructions": [
+          "Cook shrimp with spices.",
+          "Spread beans on tostadas.",
+          "Top with shrimp, lettuce, salsa, and cheese."
+        ],
+        "tags": ["mexican", "seafood"],
+        "timeMinutes": 35,
+        "servings": 4
+      },
+      {
+        "id": "beef-mince-pie",
+        "title": "Beef Mince Pie",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["pie crust", "ground beef", "onion", "carrot", "peas", "gravy"],
+        "instructions": [
+          "Cook beef and vegetables in gravy.",
+          "Fill pie crust and cover.",
+          "Bake until golden and flaky."
+        ],
+        "tags": ["british", "pie"],
+        "timeMinutes": 100,
+        "servings": 6
+      },
+      {
+        "id": "chicken-yakimeshi",
+        "title": "Chicken Yakimeshi",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["rice", "chicken", "egg", "soy sauce", "peas", "carrot", "onion"],
+        "instructions": [
+          "Scramble eggs and set aside.",
+          "Stir-fry chicken and vegetables.",
+          "Add rice and soy sauce, mix eggs back in."
+        ],
+        "tags": ["japanese", "rice"],
+        "timeMinutes": 35,
+        "servings": 3
+      },
+      {
+        "id": "lamb-kebabs",
+        "title": "Lamb Kebabs",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["lamb", "garlic", "cumin", "onion", "parsley", "olive oil"],
+        "instructions": [
+          "Marinate lamb with spices and garlic.",
+          "Skewer and grill until charred."
+        ],
+        "tags": ["middle-eastern", "grill"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "beef-salisbury-pie",
+        "title": "Salisbury Steak Pie",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["ground beef", "onion", "gravy", "pie crust", "egg"],
+        "instructions": [
+          "Prepare Salisbury steak mixture.",
+          "Fill pie crust and bake until golden."
+        ],
+        "tags": ["american", "pie"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "chicken-and-dumplings",
+        "title": "Chicken and Dumplings",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "carrot", "celery", "onion", "flour", "butter", "milk"],
+        "instructions": [
+          "Simmer chicken and vegetables in broth.",
+          "Drop spoonfuls of dumpling dough on top.",
+          "Cook until dumplings are fluffy."
+        ],
+        "tags": ["american", "comfort-food"],
+        "timeMinutes": 90,
+        "servings": 6
+      },
+      {
+        "id": "beef-hotpot",
+        "title": "Beef Hotpot",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef", "potatoes", "onion", "carrot", "stock", "butter"],
+        "instructions": [
+          "Layer beef and vegetables in a dish.",
+          "Pour over stock.",
+          "Top with sliced potatoes and bake until tender."
+        ],
+        "tags": ["british", "casserole"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "chicken-cacciatore",
+        "title": "Chicken Cacciatore",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "tomatoes", "onion", "mushroom", "garlic", "herbs", "wine"],
+        "instructions": [
+          "Brown chicken pieces.",
+          "Add vegetables, herbs, and wine.",
+          "Simmer until chicken is cooked and sauce thickened."
+        ],
+        "tags": ["italian", "chicken"],
+        "timeMinutes": 90,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-ramen",
+        "title": "Shrimp Ramen",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["ramen noodles", "shrimp", "soy sauce", "miso paste", "egg", "scallion"],
+        "instructions": [
+          "Cook noodles in broth with miso and soy.",
+          "Add shrimp until cooked.",
+          "Top with boiled egg and scallions."
+        ],
+        "tags": ["japanese", "seafood"],
+        "timeMinutes": 35,
+        "servings": 2
+      },
+      {
+        "id": "beef-chili-mac",
+        "title": "Beef Chili Mac",
+        "image": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+        "ingredients": ["macaroni", "ground beef", "tomato", "beans", "chili powder", "cheddar"],
+        "instructions": [
+          "Cook macaroni and set aside.",
+          "Prepare chili with beef, beans, and tomato.",
+          "Mix with pasta and top with cheese."
+        ],
+        "tags": ["american", "pasta"],
+        "timeMinutes": 60,
+        "servings": 5
+      },
+      {
+        "id": "stuffed-cabbage-rolls",
+        "title": "Stuffed Cabbage Rolls",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["cabbage leaves", "rice", "ground beef", "tomato sauce", "onion", "garlic"],
+        "instructions": [
+          "Blanch cabbage leaves.",
+          "Fill with beef and rice mixture.",
+          "Roll up and simmer in tomato sauce."
+        ],
+        "tags": ["eastern-european", "comfort-food"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "chicken-souvlaki",
+        "title": "Chicken Souvlaki",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken", "olive oil", "garlic", "oregano", "lemon", "pita"],
+        "instructions": [
+          "Marinate chicken in oil, garlic, oregano, and lemon.",
+          "Skewer and grill until charred.",
+          "Serve with pita and sauce."
+        ],
+        "tags": ["greek", "street-food"],
+        "timeMinutes": 50,
+        "servings": 4
+      },
+      {
+        "id": "beef-chow-fun",
+        "title": "Beef Chow Fun",
+        "image": "https://www.themealdb.com/images/media/meals/1529443972.jpg",
+        "ingredients": ["flat rice noodles", "beef", "soy sauce", "bean sprouts", "garlic", "scallion"],
+        "instructions": [
+          "Soak noodles until soft.",
+          "Stir-fry beef and garlic.",
+          "Add noodles, soy sauce, and sprouts, toss well."
+        ],
+        "tags": ["chinese", "beef"],
+        "timeMinutes": 40,
+        "servings": 3
+      },
+      {
+        "id": "moussaka-rolls",
+        "title": "Moussaka Rolls",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["eggplant", "ground beef", "tomato sauce", "bechamel", "parmesan"],
+        "instructions": [
+          "Slice and roast eggplant.",
+          "Fill with beef and tomato sauce, roll up.",
+          "Top with bechamel and parmesan, bake."
+        ],
+        "tags": ["greek", "baked"],
+        "timeMinutes": 100,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-tikka-masala",
+        "title": "Shrimp Tikka Masala",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["shrimp", "tomato", "cream", "garam masala", "onion", "garlic", "ginger"],
+        "instructions": [
+          "Cook onion, garlic, and ginger with spices.",
+          "Add tomato and cream.",
+          "Simmer with shrimp until done."
+        ],
+        "tags": ["indian", "seafood"],
+        "timeMinutes": 55,
+        "servings": 4
+      },
+      {
+        "id": "beef-manti",
+        "title": "Turkish Beef Manti",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["flour", "egg", "ground beef", "onion", "yogurt", "garlic", "butter", "paprika"],
+        "instructions": [
+          "Prepare small dumplings filled with beef and onion.",
+          "Boil until cooked.",
+          "Serve with garlic yogurt and butter sauce."
+        ],
+        "tags": ["turkish", "dumplings"],
+        "timeMinutes": 120,
+        "servings": 6
+      },
+      {
+        "id": "chicken-kiev",
+        "title": "Chicken Kiev",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["chicken breast", "butter", "garlic", "parsley", "breadcrumbs", "egg"],
+        "instructions": [
+          "Stuff chicken with garlic herb butter.",
+          "Coat with breadcrumbs.",
+          "Fry and bake until golden and cooked through."
+        ],
+        "tags": ["ukrainian", "chicken"],
+        "timeMinutes": 80,
+        "servings": 4
+      },
+      {
+        "id": "beef-teriyaki",
+        "title": "Beef Teriyaki",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef strips", "soy sauce", "mirin", "sugar", "ginger", "garlic"],
+        "instructions": [
+          "Marinate beef in teriyaki sauce.",
+          "Stir-fry until glazed and cooked."
+        ],
+        "tags": ["japanese", "beef"],
+        "timeMinutes": 35,
+        "servings": 3
+      },
+      {
+        "id": "stuffed-eggplant-casserole",
+        "title": "Stuffed Eggplant Casserole",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["eggplant", "ground lamb", "tomato", "onion", "rice", "spices"],
+        "instructions": [
+          "Hollow out eggplants.",
+          "Fill with lamb, rice, and vegetables.",
+          "Bake with tomato sauce until tender."
+        ],
+        "tags": ["mediterranean", "baked"],
+        "timeMinutes": 95,
+        "servings": 4
+      },
+      {
+        "id": "chicken-fried-steak",
+        "title": "Chicken Fried Steak",
+        "image": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+        "ingredients": ["beef steak", "flour", "egg", "milk", "oil", "gravy"],
+        "instructions": [
+          "Dredge steaks in flour, egg, and flour again.",
+          "Fry until golden and crispy.",
+          "Serve with creamy gravy."
+        ],
+        "tags": ["american", "southern"],
+        "timeMinutes": 60,
+        "servings": 4
+      },
+      {
+        "id": "shrimp-tempura",
+        "title": "Shrimp Tempura",
+        "image": "https://www.themealdb.com/images/media/meals/1529443236.jpg",
+        "ingredients": ["shrimp", "flour", "egg", "ice water", "oil"],
+        "instructions": [
+          "Make light tempura batter.",
+          "Dip shrimp and fry until crisp and golden."
+        ],
+        "tags": ["japanese", "seafood"],
+        "timeMinutes": 25,
+        "servings": 4
+      },
+      {
+        "id": "beef-sukiyaki",
+        "title": "Beef Sukiyaki",
+        "image": "https://www.themealdb.com/images/media/meals/1529443972.jpg",
+        "ingredients": ["beef slices", "soy sauce", "mirin", "tofu", "shiitake", "noodles", "napa cabbage"],
+        "instructions": [
+          "Simmer broth with soy and mirin.",
+          "Add beef, tofu, vegetables, and noodles.",
+          "Cook briefly and serve hot."
+        ],
+        "tags": ["japanese", "hotpot"],
+        "timeMinutes": 45,
+        "servings": 4
+      },
+      {
+        "id": "chicken-flautas",
+        "title": "Chicken Flautas",
+        "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+        "ingredients": ["tortillas", "shredded chicken", "onion", "cheese", "salsa", "oil"],
+        "instructions": [
+          "Fill tortillas with chicken and onion.",
+          "Roll tightly and fry until golden.",
+          "Serve with salsa and cheese."
+        ],
+        "tags": ["mexican", "street-food"],
+        "timeMinutes": 40,
+        "servings": 4
       }
   ]
   
